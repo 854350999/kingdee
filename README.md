@@ -8,7 +8,8 @@ win+r打开命令行, 切换到python环境
 调用方法
 
 ```python
-import kingdee as kd
+import kingdee
+kd = kingdee.Kingdee()
 cookies = kd.get_cookies(user_id, user_name, password)
 post_data = {}
 response = kd.save(post_data, cookies)
