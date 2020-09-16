@@ -57,3 +57,9 @@ class Kingdee(object):
         anti_audit_url = self.domain + "Kingdee.BOS.WebApi.ServicesStub.DynamicFormService.UnAudit.common.kdsvc"
 
         return self.make_request(anti_audit_url, data=data, cookies=cookies)
+
+    def query(self, data, cookies):
+
+        query_url = self.domain + "Kingdee.BOS.WebApi.ServicesStub.DynamicFormService.ExecuteBillQuery.common.kdsvc"
+
+        return self.make_request(query_url, data=data, cookies=cookies)
