@@ -1,10 +1,6 @@
 # kingdee
 关于金蝶的一个接口调用的封装类
 
-win+r打开命令行, 切换到python环境
-
-输入```pip install git+https://github.com/854350999/kingdee/kingdee.git@master```
-
 调用方法
 
 ```python
